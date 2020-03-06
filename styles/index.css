@@ -1,0 +1,67 @@
+body {
+    font-family: 'Crimson Text', serif;
+}
+
+.nav {
+    background-color: rgba(48, 47, 47, 0.486);
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav__list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 10px;
+}
+
+.nav__link {
+    margin: 10px;
+}
+
+.nav__link>a {
+    list-style: none;
+    text-decoration: none;
+}
+
+.main__info {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.main__info__title {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 10px;
+}
+
+.main__img--right {
+    width: 100%;
+    height: 100vh;
+}
+
+.main__info__text {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+    line-height: 25px;
+    margin-top: 20px;
+}
+
+.main__practical-info__title {
+    font-size: 30px;
+    margin: 20px;
+}
+
+.main__practical-info__text {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+    margin-top: 20px;    
+}
