@@ -35,3 +35,42 @@ body {
     background-color: rgba(160, 92, 4, 0.568);
     border-radius: 5px; 
 }
+
+.about {
+    margin-top: 100px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.mattias {
+    grid-column: 2/4;
+}
+
+.about__title {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.mattias__title {
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.mattias__position {
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.mattias__text {
+    margin-top: 20px;
+    font-size: 20px; 
+    line-height: 25px;
+}
+
+.mattias__img {
+    margin-top: 20px;
+    grid-column: 2/3;
+    width: 50%; 
+}
